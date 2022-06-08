@@ -1,0 +1,4 @@
+2022-06-08 18:03:34,341 - uvicorn.error - INFO - Started server process [27896]
+2022-06-08 18:03:34,342 - uvicorn.error - INFO - Waiting for application startup.
+2022-06-08 18:03:34,342 - uvicorn.error - INFO - Application startup complete.
+2022-06-08 18:03:34,343 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)

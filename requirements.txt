@@ -1,0 +1,7 @@
+fastapi==0.78.0
+pandas==1.3.4
+pyarrow==8.0.0
+pydantic==1.9.1
+requests==2.27.1
+SQLAlchemy==1.4.37
+uvicorn==0.17.6
