@@ -22,7 +22,7 @@ def export_cache_to_parquet_file(connection) -> FileResponse:
         file_path = os.path.join(dir, "export", filename)
         df.to_parquet(file_path, index = False)
         logger.info("%s exported successfully", filename)
-        return FileResponse(file_path, media_type='application/octet-stream',filename="download.parquet")
+        return FileResponse(file_path, media_type='application/octet-stream',filename=filename)
         
     except sqlite3.Error as error:
         logger.error("Error exporting parquet file ".join(error.args))
