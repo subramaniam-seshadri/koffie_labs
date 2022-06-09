@@ -32,7 +32,7 @@ def get_db():
         db.close()
 
 
-@app.post("/export", response_model=InfoResponse)
+@app.post("/export")
 def export(db: Session = Depends(get_db)):
     """This endpoint exports the sqlite db as a parquet file.
 

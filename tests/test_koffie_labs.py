@@ -32,9 +32,6 @@ client = TestClient(app)
 def test_export():
     response = client.post("/export")
     assert response.status_code == 200
-    assert response.json() == {
-        "message" : "Export Success."
-    }
 
 def test_lookup_invalid_VIN_Special_Char():
     vin =  "1XPWD40X1ED21530!"
